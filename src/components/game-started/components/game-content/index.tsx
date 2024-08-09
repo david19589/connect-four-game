@@ -86,7 +86,7 @@ function GameContent({
           Restart
         </button>
       </div>
-      <div className="lg:flex lg:flex-row lg:items-center lg:z-10 lg:gap-[4rem]">
+      <div className="lg:flex lg:flex-row lg:items-center z-10 lg:gap-[4rem]">
         <div className="lg:max-w-[9rem] lg:h-[10rem] lg:mb-0 flex justify-between max-w-[35rem] w-full mb-[3.2rem]">
           <div className="lg:flex-col lg:max-w-[9rem] lg:h-[10rem] md:max-w-[15rem] flex items-center justify-center relative max-w-[7rem] sm:max-w-[9rem] w-full bg-[#FFF] border-[0.2rem] border-[#000] shadow-custom-shadow rounded-3xl px-[3.4rem] py-[0.6rem]">
             <img
