@@ -14,10 +14,12 @@ function MainMenu(props: { setShowRules: (status: boolean) => void }) {
             <img src={PvsCpu} alt="PvsCpu" />
           </button>
         </Link>
-        <button className="flex items-center justify-between max-w-[25rem] w-full bg-[#FFCE67] border-[0.2rem] border-[#000] hover:border-[#5C2DD5] shadow-custom-shadow hover:shadow-custom-shadow-hover hover:translate-y-[0.1rem] px-[1.3rem] py-[1rem] rounded-3xl text-[1.5rem] leading-[1.9rem] font-[700] text-[#000] transition-all duration-200">
-          PLAY VS PLAYER
-          <img src={PvsP} alt="PvsP" />
-        </button>
+        <Link to="/player-vs-player" className="max-w-[25rem] w-full">
+          <button className="flex items-center justify-between max-w-[25rem] w-full bg-[#FFCE67] border-[0.2rem] border-[#000] hover:border-[#5C2DD5] shadow-custom-shadow hover:shadow-custom-shadow-hover hover:translate-y-[0.1rem] px-[1.3rem] py-[1rem] rounded-3xl text-[1.5rem] leading-[1.9rem] font-[700] text-[#000] transition-all duration-200">
+            PLAY VS PLAYER
+            <img src={PvsP} alt="PvsP" />
+          </button>
+        </Link>
         <button
           onClick={() => {
             props.setShowRules(true);
